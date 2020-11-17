@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">LearnWorlds</string>
+    <string name="app_name">LearnWords</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleText">"Welcome to LearnWords</string>
+    <string name="btnLearnText">Learn Words</string>
+    <string name="btnAddText">Add Words</string>
+    <string name="itemENG_RUSText">English to Russian</string>
+    <string name="itemRUS_ENGText">Russian to English</string>
+    <string name="itemTRANSCRIPText">Transcription to words</string>
+    <string name="itemRandomText">Random mode</string>
+    <string name="itemLearnText">Add words to learn</string>
 </resources>
