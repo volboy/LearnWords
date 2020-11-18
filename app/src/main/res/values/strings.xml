@@ -9,4 +9,7 @@
     <string name="itemTRANSCRIPText">Transcription to words</string>
     <string name="itemRandomText">Random mode</string>
     <string name="itemLearnText">Add words to learn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_rules">Something about rules</string>
+    <string name="how_use_text">How use it?</string>
 </resources>

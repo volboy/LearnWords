@@ -11,7 +11,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.volboy.learnworlds"
+        applicationId "com.volboy.learnwords"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.volboy.learnworlds.TitleFragment"
-        android:label="fragment_title"
-        tools:layout="@layout/fragment_title" >
+        android:name="com.volboy.learnwords.TitleFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_title">
         <action
             android:id="@+id/action_titleFragment_to_learnWords"
             app:destination="@id/learnWords" />
@@ -19,20 +19,24 @@
     </fragment>
     <fragment
         android:id="@+id/addWords"
-        android:name="com.volboy.learnworlds.AddLearn"
-        android:label="fragment_add_learn"
-        tools:layout="@layout/fragment_add_words" >
+        android:name="com.volboy.learnwords.AddLearn"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_add_words">
         <action
             android:id="@+id/action_addLearn_to_titleFragment"
             app:destination="@id/titleFragment" />
     </fragment>
     <fragment
         android:id="@+id/learnWords"
-        android:name="com.volboy.learnworlds.LearnWords"
-        android:label="fragment_learn_words"
-        tools:layout="@layout/fragment_learn_words" >
+        android:name="com.volboy.learnwords.LearnWords"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_learn_words">
         <action
             android:id="@+id/action_learnWords_to_titleFragment"
             app:destination="@id/titleFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.volboy.learnwords.RulesFragment"
+        android:label="@string/about_rules" />
 </navigation>

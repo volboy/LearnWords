@@ -1,4 +1,4 @@
-package com.volboy.learnworlds
+package com.volboy.learnwords
 
 import org.junit.Test
 

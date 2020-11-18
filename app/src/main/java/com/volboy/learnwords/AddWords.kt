@@ -1,4 +1,4 @@
-package com.volboy.learnworlds
+package com.volboy.learnwords
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
-import com.volboy.learnworlds.databinding.FragmentAddWordsBinding
+import com.volboy.learnwords.databinding.FragmentAddWordsBinding
 
 class AddLearn : Fragment() {
 
